@@ -69,8 +69,8 @@ const Home = () => {
     return (
     <section className='max-w-7xl mx-auto'>
         <div>
-            <h1 className="font-extrabold text-[#222328] text-[32px]">社群</h1>
-            <p className="mt-2 text-[#666e75] text-[16px] max-w[500px]">網友分享的 DALL-E AI 生成圖像</p>
+            <h1 className="font-inter font-extrabold text-[#222328] text-[32px]">社群</h1>
+            <p className="font-inter mt-2 text-[#666e75] text-[16px] max-w[500px]">網友分享的 DALL-E AI 生成圖像</p>
         </div>
 
         <div className="mt-16">
@@ -92,7 +92,7 @@ const Home = () => {
             ) : (
                 <>
                     {searchText && (
-                        <h2 className="font-medium text-[#666e75] text-xl mb-3">
+                        <h2 className="font-inter font-medium text-[#666e75] text-xl mb-3">
                             <span className="text-[#222328]"> 
                                 {searchText}的搜尋結果
                             </span>
